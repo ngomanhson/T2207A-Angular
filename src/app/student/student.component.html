@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+    .std{
+      width: 520px;
+      height: 240px;
+      border: solid black 2px;
+    }
+    h1{
+      text-align: center;
+    }
+    h3{
+      margin: 12px 7px;
+    }
+  </style>
+</head>
+<body>
+<div class="std">
+  <h1>Tên: {{classN}}</h1>
+  <h3>Email: {{Email}}</h3>
+  <h3>Address: {{Address}}</h3>
+  <h3>Số người yêu: {{bangai}}</h3>
+  <button (click)="tangBanGai()" type="button">Thêm người yêu</button>
+  <button (click)="giamBanGai()" type="button">Giảm người yêu</button>
+</div>
+</body>
+</html>
